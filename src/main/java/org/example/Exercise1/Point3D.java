@@ -1,4 +1,4 @@
-package org.example.Exrcise1;
+package org.example.Exercise1;
 /*
 Na podstawie klasy Point2D zaimplementuj klasę Point3D. Klasa ta powinna rozszerzać klasę Point2D
 oraz dodawać następującą implementację:

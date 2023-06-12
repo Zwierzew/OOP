@@ -1,4 +1,4 @@
-package org.example.Exrcise1;
+package org.example.Exercise1;
 /*
 Zaimplementuj klasę Point2D . Klasa powinna zawierać:
    * dwa pola typu float: x , y

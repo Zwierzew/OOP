@@ -1,6 +1,5 @@
-package org.example.Exrcise1;
+package org.example.Exercise1;
 
-import org.example.Exrcise1.Point2D;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
