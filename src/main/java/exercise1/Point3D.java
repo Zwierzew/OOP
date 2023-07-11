@@ -1,5 +1,5 @@
-package org.example.Exercise1;
-/*
+package exercise1;
+/**
 Na podstawie klasy Point2D zaimplementuj klasę Point3D. Klasa ta powinna rozszerzać klasę Point2D
 oraz dodawać następującą implementację:
     * pole prywatne typu float: z
@@ -17,8 +17,9 @@ public class Point3D extends Point2D{
         super(x, y);
         this.z = z;
     }
-    public String toString(float[] xyz){
-        return String.format("(%f, %f, %f)", xyz[0], xyz[1], xyz[2]);
+    @Override
+    public String toString(){
+        return String.format("(%f, %f, %f)", getX(), getY(), z);
     }
     public float getZ(){
         return z;
@@ -27,7 +28,7 @@ public class Point3D extends Point2D{
         this.z = newZ;
     }
     public float[] getXYZ(){
-        return new float[]{getX(), getY(), z}; // czy nie powinnam móc zapisać 'new float[]{x, y, z}'
+        return new float[]{getX(), getY(), z};
     }
     public void setXYZ(float newX, float newY, float newZ){
         super.setX(newX);

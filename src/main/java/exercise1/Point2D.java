@@ -1,5 +1,5 @@
-package org.example.Exercise1;
-/*
+package exercise1;
+/**
 Zaimplementuj klasę Point2D . Klasa powinna zawierać:
    * dwa pola typu float: x , y
    * konstruktor bezparametrowy ustawiający wartość pól x i y na 0,
@@ -13,14 +13,17 @@ Zaimplementuj klasę Point2D . Klasa powinna zawierać:
 public class Point2D {
     private float x;
     private float y;
+    public static int counter;
 
     public Point2D(){
         this.x = 0;
         this.y = 0;
     }
+
     public Point2D(float x, float y){
         this.x = x;
         this.y = y;
+        counter++;
     }
     @Override
     public String toString(){

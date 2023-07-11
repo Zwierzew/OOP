@@ -1,4 +1,4 @@
-package org.example.Exercise1;
+package exercise1;
 
 import org.junit.jupiter.api.Test;
 
@@ -14,8 +14,8 @@ class Point3DTest {
 
         // when
         float[] coordinates = point.getXYZ();
-        String result = point.toString(coordinates);
-        String expected = "(3.400000, 2.100000, -4.100000)";
+        String result = point.toString();
+        String expected = "(3,400000, 2,100000, -4,100000)";
 
         // then
         assertEquals(expected, result);
